@@ -1,4 +1,3 @@
 <?php
-    define('HOCKEY_INCLUDE_DIR', '/includes/main.php');
-    phpinfo();
+    define('HOCKEY_INCLUDE_DIR', 'includes/main.php');
 ?>
