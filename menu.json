@@ -1,0 +1,305 @@
+{
+    "data_source": [
+                    {
+                    "name" : "local_news",
+                    "url": "http://search.cmgdigital.com/v2/guid/?g=https://identifiers.cmgdigital.com/medley/prod/list_o_rama.manuallist/3654/&format=json&detail=full",
+                    "type": "story_json_feed"
+                    },
+                    {
+                    "name" : "top_story",
+                    "url": "http://search.cmgdigital.com/v2/guid/?g=%22https://identifiers.cmgdigital.com/medley/prod/list_o_rama.manuallist/2663/%22&format=json&detail=full",
+                    "type": "story_json_feed"
+                    },
+                    {
+                    "name" : "top_stories",
+                    "url" : "http://search.cmgdigital.com/v2/guid/?g=https://identifiers.cmgdigital.com/medley/prod/medley_lists.fastautolist/1018/&format=json&detail=full",
+                    "type": "story_json_feed"
+                    },
+                    {
+                    "name" : "usworld",
+                    "url": "http://search.cmgdigital.com/v2/guid/?g=https://identifiers.cmgdigital.com/medley/prod/list_o_rama.automaticlist/1292/&f=subcollections:%22https://cv.cmgdigital.com/provider/medleysite/prod/9006/%22&format=json&detail=full",
+                    "type": "story_json_feed"
+                    },
+                    {
+                    "name" : "sports",
+                    "url": "http://search.cmgdigital.com/v2/guid/?g=https://identifiers.cmgdigital.com/medley/prod/list_o_rama.automaticlist/3049/&f=subcollections:%22https://cv.cmgdigital.com/provider/medleysite/prod/9006/%22&format=json&detail=full",
+                    "type": "story_json_feed"
+                    },
+                    {
+                    "name" : "entertainment",
+                    "url": "",
+                    "type": "story_json_feed"
+                    },
+                    {
+                    "name" : "irresistable_news",
+                    "url": "http://search.cmgdigital.com/v2/guid/?g=https://identifiers.cmgdigital.com/medley/prod/list_o_rama.manuallist/1276/&format=json&detail=full",
+                    "type": "story_json_feed"
+                    },
+                    {
+                    "name" : "latest_photos",
+                    "url": "http://search.cmgdigital.com/v2/guid/?g=https://identifiers.cmgdigital.com/medley/prod/list_o_rama.automaticlist/10823/&f=subcollections:%22https://cv.cmgdigital.com/provider/medleysite/prod/9006/%22&format=json&detail=full",
+                    "type": "story_json_feed"
+                    },
+                    {
+                    "name" : "latest_videos",
+                    "url": "http://search.cmgdigital.com/v2/guid/?g=https://identifiers.cmgdigital.com/medley/prod/medley_lists.fastautolist/1021/&format=json&detail=full",
+                    "type": "story_json_feed"
+                    },
+                    {
+                    "name" : "live_feed",
+                    "url": "http://api.brightcove.com/services/library?command=find_playlist_by_id&output=mrss&token=P3dMwdbehVVt5rjCqaESD7IrDINpybTHD1IJRq9ZJUtbw1R0eI0Sdw..&media_delivery=http&playlist_id=3027939856001",
+                    "type": "live_video_feed"
+                    },
+                    {
+                    "name" : "weather_current_conditions",
+                    "url": "http://m.wsbtv.com/weather/currentconditions/30309?format=json",
+                    "type": "weather_json_feed"
+                    },
+                    {
+                    "name" : "weather_radar",
+                    "url": "",
+                    "type": "weather_radar_feed"
+                    },
+                    {
+                    "name" : "weather_five_day",
+                    "url": "http://m.wsbtv.com/photo/weather/wsbtv_weather_max5d/pFMST/?",
+                    "type": "weather_json_feed"
+                    },
+                    {
+                    "name" : "weather_extended_forcast",
+                    "url": "http://www.wsbtv.com/weather/metforecast/7/?format=json",
+                    "type": "weather_json_feed"
+                    },
+                    {
+                    "name" : "weather_video",
+                    "url": "http://api.brightcove.com/services/library?command=find_playlist_by_id&output=json&token=P3dMwdbehVVt5rjCqaESD7IrDINpybTHD1IJRq9ZJUtbw1R0eI0Sdw..&media_delivery=http&playlist_id=825958019001",
+                    "type": "weather_video_feed"
+                    },
+                    {
+                    "name" : "weather_fish_game",
+                    "url": "http://m.wsbtv.com/weather/fish-and-game/",
+                    "type": "webview"
+                    },
+                    {
+                    "name" : "live_traffic",
+                    "url": "",
+                    "type": "traffic_feed"
+                    },
+                    {
+                    "name" : "drive_times",
+                    "url": "",
+                    "type": "traffic_json_feed"
+                    },
+                    {
+                    "name" : "traffic_incidents",
+                    "url": "",
+                    "type": "traffic_json_feed"
+                    },
+                    {
+                    "name" : "live_news",
+                    "url": "http://cmgdigitalhd2-lh.akamaihd.net/i/88246163001_1@131098/master.m3u8",
+                    "type": "live_video_feed"
+                    },
+                    {
+                    "name" : "live_event",
+                    "url": "http://cmgdigitalhd2-lh.akamaihd.net/i/88246163001_2@131099/master.m3u8",
+                    "type": "live_video_feed"
+                    },
+                    {
+                    "name" : "agreement",
+                    "url": "http://m.wsbtv.com/visitor_agreement/",
+                    "type": "webview"
+                    },
+                    {
+                    "name" : "privacy_policy",
+                    "url": "http://m.wsbtv.com/privacy_policy/",
+                    "type": "webview"
+                    },
+                    {
+                    "name" : "contact_us",
+                    "url": "newstip@wsbtv.com",
+                    "type": "email"
+                    }
+                    ],
+    "menu": [
+             {
+             "name": "News",
+             "items": [
+                       {
+                       "name": "Top Story",
+                       "data_source": "top_story"
+                       },
+                       {
+                       "name": "Local News",
+                       "data_source": "local_news"
+                       },
+                       {
+                       "name": "US/World News",
+                       "data_source": "usworld"
+                       },
+                       {
+                       "name": "Sports",
+                       "data_source": "sports"
+                       },
+                       {
+                       "name": "Entertainment",
+                       "data_source": "entertainment"
+                       },
+                       {
+                       "name": "Irresistable News",
+                       "data_source": "irresistable_news"
+                       }
+                       ]
+             },
+             {
+             "name": "Multimedia",
+             "items": [
+                       {
+                       "name": "Latest Photos",
+                       "data_source": "latest_photos"
+                       },
+                       {
+                       "name": "Latest Videos",
+                       "data_source": "latest_videos"
+                       },
+                       {
+                       "name": "2 News Now",
+                       "data_source": "live_stream"
+                       }
+                       ]
+             },
+             {
+             "name": "Weather",
+             "items": [
+                       {
+                       "name": "Current Conditions",
+                       "data_source": "weather_current_conditions"
+                       },
+                       {
+                       "name": "Radar",
+                       "data_source": "weather_radar"
+                       },
+                       {
+                       "name": "5 Day",
+                       "data_source": "weather_five_day"
+                       },
+                       {
+                       "name": "Extended Forecast",
+                       "data_source": "weather_extended_forecast"
+                       },
+                       {
+                       "name": "Video Forecast",
+                       "data_source": "weather_video"
+                       },
+                       {
+                       "name": "Fish & Game",
+                       "data_source": "weather_fish_game"
+                       }
+                       ]
+             },
+             {
+             "name": "Traffic",
+             "items": [
+                       {
+                       "name": "Live Traffic",
+                       "data_source": "live_traffic"
+                       },
+                       {
+                       "name": "Drive Times",
+                       "data_source": "drive_times"
+                       },
+                       {
+                       "name": "Incidents",
+                       "data_source": "traffic_incidents"
+                       }
+                       ]
+             },
+             {
+             "name": "Live",
+             "items": [
+                       {
+                       "name": "Watch News Live",
+                       "data_source": "live_news"
+                       },
+                       {
+                       "name": "Watch Live Event",
+                       "data_source": "live_event"
+                       }
+                       ]
+             },
+             {
+             "name": "Information",
+             "items": [
+                       {
+                       "name": "Visitor Agreement",
+                       "data_source": "agreement"
+                       },
+                       {
+                       "name": "Privacy Policy",
+                       "data_source": "privacy_policy"
+                       },
+                       {
+                       "name": "Contact Us",
+                       "data_source": "contact_us"
+                       }
+                       ]
+             }
+             ],
+    "home": {
+        "tabbar": [
+                   
+                   {
+                   "name": "Local News",
+                   "data-source": "local_news"
+                   },
+                   {
+                   "name": "Sports",
+                   "data-source": "sports"
+                   },
+                   {
+                   "name": "Top Story",
+                   "data-source": "top_story"
+                   }
+                   
+                   ],
+        "widgets": [
+                    
+                    {
+                    "name": "",
+                    "data_source": "local_news",
+                    "icon": ""
+                    }
+                    
+                    ],
+        "top_story": {
+            "data_source": "top_story"
+        },
+        "news_items": [
+                       {
+                       "name": "Local News",
+                       "data_source": "local_news",
+                       "size": 10
+                       },
+                       {
+                       "name": "US/World News",
+                       "data_source": "usworld",
+                       "size": 10
+                       },
+                       {
+                       "name": "Sports",
+                       "data_source": "sports",
+                       "size": 10
+                       },
+                       {
+                       "name": "Irresistable News",
+                       "data_source": "irresistable_news",
+                       "size": 10
+                       },
+                       {
+                       "name": "Latest Photos",
+                       "data_source": "latest_photos",
+                       "size": 10
+                       }
+                       ]
+    }
+}
